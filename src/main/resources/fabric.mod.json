@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "killaura",
+	"version": "${version}",
+	"name": "Killaura",
+	"description": "Client-side killaura for a private server: smooth aiming, auto attack, settings menu with rebindable keys.",
+	"authors": [
+		"smsfr"
+	],
+	"license": "MIT",
+	"icon": "assets/killaura/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.smsfr.killaura.Killaura"
+		],
+		"client": [
+			"com.smsfr.killaura.client.KillauraClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
